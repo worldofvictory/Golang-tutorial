@@ -46,6 +46,9 @@ func main() {
 			fmt.Printf("We only have %v tickets remaining, you cannot book %v tickets\n", remainingTickets, userTickets)
 		}
 	}
+	for i := range 3 {
+		fmt.Println(i)
+	}
 
 }
 func greetUsers() {
